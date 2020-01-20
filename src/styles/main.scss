@@ -1,0 +1,138 @@
+.one-div {
+  height: 92vh;
+  .carousel-main {
+    position: relative;
+    // top: 100px;
+    width: 100%;
+    height: 85vh;
+    background: white;
+    .carousel-inner {
+      .carousel-text {
+        position: absolute;
+        display: grid;
+        z-index: 1;
+        color: #005a9e;
+        left: 0;
+        right: 0;
+        top: 10%;
+        font-size: 40px;
+        font-weight: 300;
+        text-shadow: 3px 3px 4px #00000066;
+      }
+      .carousel-item {
+        img {
+          height: 85vh;
+          // background-size: cover;
+        }
+      }
+    }
+  }
+}
+// .third-div {
+//   background: url(../images/rockBalance.jpg) center no-repeat fixed;
+//   height: 800px;
+//   background-size: auto;
+//   display: flex;
+//   align-items: center;
+// }
+.second-div {
+  .single-row {
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: 0;
+    .column-css {
+      img {
+        width: 100%;
+        // padding-bottom: 15px;
+        // padding-top: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out;
+        &:hover {
+          opacity: 0.8;
+          -ms-transform: scale(1.01); /* IE 9 */
+          -webkit-transform: scale(1.01); /* Safari 3-8 */
+          transform: scale(1.01);
+          // border: 1px solid black;
+        }
+      }
+    }
+  }
+}
+.dialog-part {
+  .dialog-title {
+    input {
+      width: 336px;
+    }
+    .MuiTypography-h6 {
+      font-size: 30px;
+      // text-shadow: 2px 1px 7px #00000099;
+    }
+  }
+  .dialog-content {
+    img {
+      max-height: 70vh;
+      max-width: 100% !important;
+    }
+    span {
+      display: block;
+      // text-shadow: 1px -1px 5px #00000063;
+      font-size: 20px;
+      font-weight: 600;
+      // padding: 5px;
+    }
+    .textarea-part {
+      height: 260px !important;
+      /* min-height: 350px; */
+      min-width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      outline: none;
+      margin-top: 10px;
+    }
+  }
+  .dialog-actions {
+    padding: 12px;
+    .discard-button {
+      border: 1px solid black;
+      &:hover {
+        box-shadow: 1px 0px 10px 0px black;
+        // box-shadow: -1px 0px 2px 0px black
+      }
+    }
+    .send-button {
+      border: 1px solid #005a9e;
+      background: #005a9e;
+      color: white;
+      padding: 6px 22px;
+      &:hover {
+        box-shadow: 1px 0px 10px 0px black;
+        // box-shadow: -1px 0px 2px 0px black
+      }
+    }
+  }
+}
+
+@media (max-width: 766px) and (min-width: 320px) {
+  .one-div {
+    height: 30vh;
+    .carousel-main {
+      position: relative;
+      // top: 100px;
+      width: 100%;
+      height: 30vh;
+      background: white;
+      .carousel-inner {
+        .carousel-item {
+          img {
+            height: 30vh;
+            // background-size: cover;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+export const SAVE_DETAILS = 'SAVE_DETAILS'
+export const ERR_SAVE_DETAILS = 'ERR_SAVE_DETAILS'

@@ -1,0 +1,17 @@
+.footer {
+  color: white;
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+  // background: #005a9e;
+  background: linear-gradient(2deg, black, #0000008c);
+  padding: 15px;
+  z-index: 11;
+
+  p {
+    margin: 0px !important;
+  }
+}

@@ -1,0 +1,17 @@
+.custom-header {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  height: 60px;
+  box-shadow: 0px 0px 6px 2px black;
+  // background: #005a9e !important;
+  background: linear-gradient(2deg, black, #0000008c);
+  .navbar-title {
+    position: relative;
+    margin: 0 auto;
+    .nav-link{
+      font-size: 20px;
+    }
+  }
+}

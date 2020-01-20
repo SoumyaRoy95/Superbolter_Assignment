@@ -1,0 +1,35 @@
+.second-main {
+//   display: flex;
+  color: black;
+  .image-desc {
+    // display: grid;
+    // display: grid;
+    // position: absolute;
+    // bottom: 35px;
+    // width: 500px;
+    span {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: 0.25rem;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+.hr{
+    margin-left: 2%;
+    margin-right: 2%;
+}
